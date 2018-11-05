@@ -27,7 +27,6 @@ linter-xmllint@1.4.4
 markdown-writer@2.10.3
 minimap@4.29.9
 minimap-linter@2.2.1
-monokai@0.24.0
 multi-cursor@2.1.5
 npm-plus@0.4.0
 one-dark-monokai@0.5.0
