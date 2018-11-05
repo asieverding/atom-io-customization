@@ -76,13 +76,11 @@ Packages from <https://atom.io/packages> ⇒ `apm install package-name`
 -   [x] markdown-writer
 -   [x] minimap
 -   [x] minimap-linter
--   [x] monokai
 -   [x] multi-cursor
 -   [x] npm-plus
 -   [x] one-dark-monokai
 -   [x] open-in-browser
 -   [x] php-debug
--   [x] php-hyperclick
 -   [x] semantic-ui
 -   [x] teletype
 -   [x] tool-bar
@@ -97,7 +95,6 @@ Packages from <https://www.npmjs.com/> ⇒ `npm install package-name`
 -   [x] jshint
 -   [x] jsonlint
 -   [x] less
--   [x] npm
 -   [x] sass-lint
 
 **Note:** _Node.js packages aren't included in install script currently!_
