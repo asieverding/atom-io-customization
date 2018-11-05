@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Display welcome message and info
-echo "Welcome to atom-io-customization update script\n"
+echo "\nWelcome to automatic Atom.io backup script by Andre Sieverding\n"
 echo "Updating script..."
 
 # Get absolute directory path of current dir
@@ -26,6 +26,21 @@ do
 	fi
 done
 
+# Change into icon directory
+cd ./touchbar-icons
+
+# Copy tochbar icons
+for file in ./*
+do
+	# Only .png
+	if [[ "$file" == ./*.png ]]
+	then
+		relFile=$(echo $file | cut -c 3-)
+		echo "Copying: ~/.atom/touchbar-icons/${relFile} -> ${dir}/icon/${relFile}"
+  		cp $relFile "${dir}/icon/${relFile}"
+	fi
+done
+
 # Change into ~/ directory
 cd ~/
 
@@ -35,7 +50,7 @@ cp .htmlhintrc "${dir}/linter-conf/.htmlhintrc"
 echo "Copying: ~/.jshintrc -> ${dir}/linter-conf/.jshintrc"
 cp .jshintrc "${dir}/linter-conf/.jshintrc"
 
-echo "Done copying"
+echo "Done copying\n"
 
 # Change into atom-io-customization directory
 cd $dir
@@ -45,4 +60,4 @@ echo "Create Node.js package-list..."
 npm list -json -g --depth=0 >> node-package-list.json
 
 # Done! :)
-echo "\nDone.\nDon't forget to remove Node.js packages from packagelist file, which you don't need for this setup!"
+echo "\nDone ✅\nDon't forget to remove Node.js packages from packagelist file, which you don't need for this setup!\n"
