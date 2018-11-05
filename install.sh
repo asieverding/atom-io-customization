@@ -22,6 +22,8 @@ echo "\n"
 cd ${dir}/atom
 
 # Copy all configurations into current directory
+echo "Updating package-list...\n"
+
 for file in ./*
 do
 	# Only if it is a .cson, .coffee, .txt, .json or .less file

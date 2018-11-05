@@ -15,6 +15,8 @@ echo "Updating package-list...\n"
 apm list --installed --bare > package-list.txt
 
 # Copy all configurations into current directory
+echo "Copying files...\n"
+
 for file in ./*
 do
 	# Only if it is a .cson, .coffee, .txt, .json or .less file
