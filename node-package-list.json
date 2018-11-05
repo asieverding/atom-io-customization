@@ -35,3 +35,114 @@
     }
   }
 }
+{
+  "dependencies": {
+    "asar": {
+      "version": "0.14.5",
+      "from": "asar",
+      "resolved": "https://registry.npmjs.org/asar/-/asar-0.14.5.tgz"
+    },
+    "electron-packager": {
+      "version": "12.2.0",
+      "from": "electron-packager",
+      "resolved": "https://registry.npmjs.org/electron-packager/-/electron-packager-12.2.0.tgz"
+    },
+    "jshint": {
+      "version": "2.9.6",
+      "from": "jshint",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.9.6.tgz"
+    },
+    "jsonlint": {
+      "version": "1.6.3",
+      "from": "jsonlint",
+      "resolved": "https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.3.tgz"
+    },
+    "less": {
+      "version": "3.8.1",
+      "from": "less",
+      "resolved": "https://registry.npmjs.org/less/-/less-3.8.1.tgz"
+    },
+    "npm": {
+      "version": "6.4.1"
+    },
+    "sass-lint": {
+      "version": "1.12.1",
+      "from": "sass-lint",
+      "resolved": "https://registry.npmjs.org/sass-lint/-/sass-lint-1.12.1.tgz"
+    }
+  }
+}
+{
+  "dependencies": {
+    "asar": {
+      "version": "0.14.5",
+      "from": "asar",
+      "resolved": "https://registry.npmjs.org/asar/-/asar-0.14.5.tgz"
+    },
+    "electron-packager": {
+      "version": "12.2.0",
+      "from": "electron-packager",
+      "resolved": "https://registry.npmjs.org/electron-packager/-/electron-packager-12.2.0.tgz"
+    },
+    "jshint": {
+      "version": "2.9.6",
+      "from": "jshint",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.9.6.tgz"
+    },
+    "jsonlint": {
+      "version": "1.6.3",
+      "from": "jsonlint",
+      "resolved": "https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.3.tgz"
+    },
+    "less": {
+      "version": "3.8.1",
+      "from": "less",
+      "resolved": "https://registry.npmjs.org/less/-/less-3.8.1.tgz"
+    },
+    "npm": {
+      "version": "6.4.1"
+    },
+    "sass-lint": {
+      "version": "1.12.1",
+      "from": "sass-lint",
+      "resolved": "https://registry.npmjs.org/sass-lint/-/sass-lint-1.12.1.tgz"
+    }
+  }
+}
+{
+  "dependencies": {
+    "asar": {
+      "version": "0.14.5",
+      "from": "asar",
+      "resolved": "https://registry.npmjs.org/asar/-/asar-0.14.5.tgz"
+    },
+    "electron-packager": {
+      "version": "12.2.0",
+      "from": "electron-packager",
+      "resolved": "https://registry.npmjs.org/electron-packager/-/electron-packager-12.2.0.tgz"
+    },
+    "jshint": {
+      "version": "2.9.6",
+      "from": "jshint",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.9.6.tgz"
+    },
+    "jsonlint": {
+      "version": "1.6.3",
+      "from": "jsonlint",
+      "resolved": "https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.3.tgz"
+    },
+    "less": {
+      "version": "3.8.1",
+      "from": "less",
+      "resolved": "https://registry.npmjs.org/less/-/less-3.8.1.tgz"
+    },
+    "npm": {
+      "version": "6.4.1"
+    },
+    "sass-lint": {
+      "version": "1.12.1",
+      "from": "sass-lint",
+      "resolved": "https://registry.npmjs.org/sass-lint/-/sass-lint-1.12.1.tgz"
+    }
+  }
+}
