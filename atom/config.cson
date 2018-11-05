@@ -54,6 +54,8 @@
       showDiagnosticTraces: true
       showDirectoryColumn: true
     "debugger-exceptionBreakpointsCollapsed": false
+    hyperclick:
+      darwinTriggerKeys: "ctrlKey"
   "atom-toolbar-preferred": {}
   "atom-touch-bar": {}
   "autocomplete-plus":
@@ -73,7 +75,6 @@
       "wrap-guide"
       "linter"
       "linter-sass-lint"
-      "php-hyperclick"
       "atom-ide-debugger-node"
     ]
     packagesWithKeymapsDisabled: [
@@ -81,6 +82,7 @@
       "touchbar"
       "atom-touch-bar"
       "atom-touchbar"
+      "hyperclick"
     ]
     projectHome: "/Users/andre/Dokumente/GitHub"
     telemetryConsent: "no"
