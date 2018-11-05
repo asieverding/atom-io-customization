@@ -35,7 +35,7 @@ cp .htmlhintrc "${dir}/linter-conf/.htmlhintrc"
 echo "Copying: ~/.jshintrc -> ${dir}/linter-conf/.jshintrc"
 cp .jshintrc "${dir}/linter-conf/.jshintrc"
 
-echo "\nDone copying"
+echo "Done copying"
 
 # Change into atom-io-customization directory
 cd $dir
