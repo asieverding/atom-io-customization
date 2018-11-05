@@ -17,11 +17,12 @@ apm list --installed --bare > package-list.txt
 # Copy all configurations into current directory
 for file in ./*
 do
+	# Only if it is a .cson, .coffee, .txt, .json or .less file
 	if [[ "$file" == ./*.cson ]] || [[ "$file" == ./*.coffee ]] || [[ "$file" == ./*.txt ]] || [[ "$file" == ./*.json ]] || [[ "$file" == ./*.less ]]
 	then
 		relFile=$(echo $file | cut -c 3-)
-		echo "Copying: ~./atom/${relFile} -> ${dir}/${relFile}"
-  		cp $relFile "${dir}/${relFile}"
+		echo "Copying: ~./atom/${relFile} -> ${dir}/conf/${relFile}"
+  		cp $relFile "${dir}/conf/${relFile}"
 	fi
 done
 
