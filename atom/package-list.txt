@@ -33,7 +33,6 @@ npm-plus@0.4.0
 one-dark-monokai@0.5.0
 open-in-browser@0.5.2
 php-debug@0.3.5
-php-hyperclick@1.2.1
 semantic-ui@1.0.9
 teletype@0.13.3
 tool-bar@1.1.11
