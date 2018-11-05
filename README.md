@@ -27,11 +27,8 @@ Mac OS Touchbar integration :alien:
 
 ### Installation Guide
 
-1.  Clone / download repository to your local computer
-        $ git clone <https://github.com/Teddy95/atom-io-customization>
-2.  Execute `install.sh` in your terminal
-        $ ./install.sh
-3.  Done!
+    $ git clone <https://github.com/Teddy95/atom-io-customization>
+    $ ./install.sh
 
 ### Backup your Atom.io environment for new installation
 
