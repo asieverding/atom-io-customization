@@ -21,10 +21,19 @@ do
 	if [[ "$file" == ./*.cson ]] || [[ "$file" == ./*.coffee ]] || [[ "$file" == ./*.txt ]] || [[ "$file" == ./*.json ]] || [[ "$file" == ./*.less ]]
 	then
 		relFile=$(echo $file | cut -c 3-)
-		echo "Copying: ~./atom/${relFile} -> ${dir}/conf/${relFile}"
-  		cp $relFile "${dir}/conf/${relFile}"
+		echo "Copying: ~/.atom/${relFile} -> ${dir}/atom/${relFile}"
+  		cp $relFile "${dir}/atom/${relFile}"
 	fi
 done
+
+# Change into ~/ directory
+cd ~/
+
+# Copy linter configurations
+echo "Copying: ~/.htmlhintrc -> ${dir}/linter-conf/.htmlhintrc"
+cp .htmlhintrc "${dir}/linter-conf/.htmlhintrc"
+echo "Copying: ~/.jshintrc -> ${dir}/linter-conf/.jshintrc"
+cp .jshintrc "${dir}/linter-conf/.jshintrc"
 
 echo "\nDone copying"
 
