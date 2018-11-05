@@ -28,30 +28,59 @@ Also a functionality for running Electron / NodeJS Apps from toolbar is included
 
 Packages from [https://atom.io/packages](https://atom.io/packages) ⇒ `apm install package-name`
 
-- one-dark-monokai
-- atom-debug-ui
-- atom-html-preview
-- atom-ide-ui
-- docblockr
-- file-icons
-- teletype
-- linter
-- minimap
-- minimap-linter
-- ...
+- [x] atom-beautify
+- [x] atom-debug-ui
+- [x] atom-html-preview
+- [x] atom-ide-debugger-node
+- [x] atom-ide-ui
+- [x] atom-toolbar-preferred
+- [x] browser-plus
+- [x] busy-signal
+- [x] color-picker
+- [x] docblockr
+- [x] file-icons
+- [x] ide-php
+- [x] intentions
+- [x] language-swift
+- [x] linter
+- [x] linter-csslint
+- [x] linter-htmlhint
+- [x] linter-jshint
+- [x] linter-jsonlint
+- [x] linter-less
+- [x] linter-markdown
+- [x] linter-php
+- [x] linter-sass-lint
+- [x] linter-swiftc
+- [x] linter-ui-default
+- [x] linter-xmllint
+- [x] markdown-writer
+- [x] minimap
+- [x] minimap-linter
+- [x] monokai
+- [x] multi-cursor
+- [x] npm-plus
+- [x] one-dark-monokai
+- [x] open-in-browser
+- [x] php-debug
+- [x] php-hyperclick
+- [x] semantic-ui
+- [x] teletype
+- [x] tool-bar
+- [x] touchbar
 
 
 ### Included Node.js packages
 
 Packages from [https://www.npmjs.com/](https://www.npmjs.com/) ⇒ `npm install package-name`
 
-- htmlhint
-- jshint
-- jsonlint
-- csslint
-- remark-lint
-- sass-lint
-- less
+- [x] asar
+- [x] electron-packager
+- [x] jshint
+- [x] jsonlint
+- [x] less
+- [x] npm
+- [x] sass-lint
 
 
 ### Included configuration files
