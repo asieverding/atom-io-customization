@@ -1,0 +1,203 @@
+"*":
+  "api-docs":
+    _theme: "Dark"
+  "atom-beautify":
+    css:
+      convert_quotes: "double"
+      default_beautifier: "Pretty Diff"
+      end_with_newline: true
+      indent_size: 4
+      no_lead_zero: true
+      preserve_newlines: true
+    general:
+      beautifyEntireFileOnSave: false
+    html:
+      end_with_newline: true
+      indent_inner_html: true
+      indent_size: 4
+      wrap_attributes_indent_size: 4
+    js:
+      end_with_comma: true
+      end_with_newline: true
+      indent_size: 4
+      keep_array_indentation: true
+      keep_function_indentation: true
+      object_curly_spacing: true
+      space_after_anon_function: true
+    json:
+      end_with_comma: true
+      end_with_newline: true
+      indent_size: 4
+      keep_array_indentation: true
+      keep_function_indentation: true
+      object_curly_spacing: true
+      space_after_anon_function: true
+    markdown: {}
+    scss:
+      convert_quotes: "double"
+      indent_size: 4
+      preserve_newlines: true
+    sql:
+      identifiers: "lower"
+      indent_size: 2
+    twig:
+      indent_size: 4
+      space_after_anon_function: true
+    xml:
+      default_beautifier: "JS Beautify"
+      end_with_newline: true
+      indent_inner_html: true
+      indent_size: 4
+  "atom-html-preview": {}
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      showDiagnosticTraces: true
+      showDirectoryColumn: true
+    "debugger-exceptionBreakpointsCollapsed": false
+  "atom-toolbar-preferred": {}
+  "atom-touch-bar": {}
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    minimumWordLength: 2
+  "browser-plus":
+    currentFile: false
+    homepage: "https://devdocs.io"
+  "color-picker":
+    abbreviateValues: true
+    automaticReplace: true
+    preferredFormat: "HEX"
+    triggerKey: "E"
+  core:
+    closeEmptyWindows: false
+    disabledPackages: [
+      "wrap-guide"
+      "linter"
+      "linter-sass-lint"
+      "php-hyperclick"
+      "atom-ide-debugger-node"
+    ]
+    packagesWithKeymapsDisabled: [
+      "toggle-gutter"
+      "touchbar"
+      "atom-touch-bar"
+      "atom-touchbar"
+    ]
+    projectHome: "/Users/andre/Dokumente/GitHub"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "one-dark-monokai"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    softTabs: false
+    tabLength: 4
+  "exception-reporting":
+    userId: "04f29aa6-1c13-4aaa-96a7-2ad326667bcd"
+  "file-icons":
+    strategies: {}
+  github:
+    gitDiagnostics: true
+  "ide-php":
+    phpPath: "/usr/bin/php"
+  linter: {}
+  "linter-htmlhint": {}
+  "linter-jshint":
+    jshintFileName: "/Users/andre/.jshintrc"
+    lintInlineJavaScript: true
+  "linter-less":
+    ignoreLessrc: true
+    ignoreUndefinedMixins: false
+    ignoreUndefinedVariables: false
+  "linter-markdown":
+    detectIgnore: false
+  "linter-ui-default":
+    alwaysTakeMinimumSpace: true
+    panelHeight: 262
+    showStatusBar: false
+  "markdown-preview":
+    useGitHubStyle: true
+  "markdown-writer": {}
+  minimap:
+    autoToggle: false
+    plugins:
+      linter: true
+      linterDecorationsZIndex: 0
+  "one-dark-ui":
+    tabCloseButton: "Left"
+  "php-debug":
+    exceptions: {}
+    noPackageInstallPrompt: [
+      "atom-debug-ui"
+    ]
+    server:
+      protocolDebugging: true
+      redirectStderr: true
+      redirectStdout: true
+      serverAddress: "192.168.2.104"
+    showWelcome: false
+    xdebug:
+      pathMaps: "[{\"remotePath\":\"/null\",\"localPath\":\"!\"}]"
+  "toggle-gutter": {}
+  "tool-bar":
+    fullWidth: false
+    iconSize: "16px"
+    useTouchBar: false
+  "tool-bar-markdown-writer": {}
+  touchbar:
+    buttons: "[{\"type\":\"button\",\"name\":\"Config 1541358660400\",\"icon\":\"/Users/andre/.atom/touchbar-icons/new-file.png\",\"label\":\"\",\"iconColor\":\"default\",\"command\":\"application:open-file\"},{\"type\":\"button\",\"name\":\"Config 1541361769276\",\"icon\":\"/Users/andre/.atom/touchbar-icons/save.png\",\"command\":\"core:save\"},{\"type\":\"button\",\"name\":\"Config 1541361769422\",\"icon\":\"/Users/andre/.atom/touchbar-icons/run-app.png\",\"command\":\"npm-plus:start\"},{\"type\":\"button\",\"name\":\"Config 1541362671587\",\"icon\":\"/Users/andre/.atom/touchbar-icons/beautify.png\",\"command\":\"atom-beautify:beautify-editor\"},{\"type\":\"button\",\"name\":\"Config 1541361769671\",\"icon\":\"/Users/andre/.atom/touchbar-icons/toggle-sidebar.png\",\"command\":\"tree-view:toggle\"},{\"type\":\"button\",\"name\":\"Config 1541361770302\",\"icon\":\"/Users/andre/.atom/touchbar-icons/reload-window.png\",\"command\":\"window:reload\"},{\"type\":\"button\",\"name\":\"Config 1541361770880\",\"icon\":\"/Users/andre/.atom/touchbar-icons/settings.png\",\"command\":\"settings-view:open\"},{\"type\":\"button\",\"name\":\"Config 1541361799590\",\"icon\":\"/Users/andre/.atom/touchbar-icons/docs.png\",\"command\":\"browser-plus:open\"}]"
+  "touchbar-utility":
+    backup: '''
+      const { dispatchAction } = require('./dispatchAction');
+      
+      exports.configuration = [{
+        type: 'label',
+        label: 'touchbar-utility rocks! 🎸🤘'
+      }, {
+        type: 'button',
+        label: '💅',
+        clickDispatchAction: 'atom-beautify:beautify-editor',
+        backgroundColor: '#b355d6'
+      }, {
+        type: 'button',
+        icon: 'book',
+        clickDispatchAction: 'editor:toggle-line-comments',
+        backgroundColor: '#4899a8'
+      }, {
+        type: 'group',
+        items: [{
+          type: 'popover',
+          label: 'Popover',
+          items: [{
+            type: 'slider',
+            label: 'Slider',
+            value: 10,
+            minValue: 0,
+            maxValue: 35,
+            change: (newValue) => {
+                console.log('Slider value: ' + String(newValue));
+            }
+          }]
+        }, {
+          type: 'button',
+          label: 'Log to console',
+          click: () => {
+            console.log('Beep boop');
+          },
+          backgroundColor: '#e3e262'
+        }, {
+          type: 'color-picker',
+          availableColors: ['#AA7942', '#FF9300', '#00FDFF'],
+          selectedColor: '#FF9300',
+          change: (color) => {
+            atom.notifications.addInfo(String(color));
+          }
+        }]
+      }]
+      
+    '''
+    lastVersion: "3.3.0"
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,382 @@
+# This file is used by Atom Toolbar Preferred to create buttons on your Tool Bar.
+# For more information how to use this package and create your own buttons,
+#   read the documentation on https://atom.io/packages/atom-toolbar-preferred
+[
+	{
+		type: 'button'
+		tooltip: 'Open File'
+		callback: 'application:open-file'
+		icon: 'file-code'
+	},
+	{
+		type: 'button'
+		tooltip: 'Add Folder / Project'
+		callback: 'application:add-project-folder'
+		icon: 'file-directory'
+	},
+	{
+		type: 'button'
+		tooltip: 'Save File'
+		callback: 'core:save'
+		icon: 'cloud-upload'
+	},
+	{
+		type: 'spacer'
+	},
+	{
+		type: 'button'
+		tooltip: 'Find in Buffer'
+		callback: 'find-and-replace:toggle'
+		icon: 'search'
+	},
+	{
+		type: 'button'
+		tooltip: 'HTML Preview'
+		dependency: 'atom-html-preview'
+		callback: 'atom-html-preview:toggle'
+		show: 'html'
+		icon: 'eye'
+	},
+	{
+		type: 'button'
+		tooltip: 'Open in Browser'
+		dependency: 'open-in-browser'
+		callback: 'open-in-browser:open'
+		show: 'html'
+		icon: 'browser'
+	},
+	{
+		type: 'button'
+		tooltip: 'Markdown Preview'
+		dependency: 'markdown-preview'
+		callback: 'markdown-preview:toggle'
+		show: 'markdown'
+		icon: 'markdown'
+	},
+	{
+		type: 'button'
+		tooltip: 'Insert Hyperlink'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:insert-link'
+		show: 'markdown'
+		icon: 'link'
+	},
+	{
+		type: 'button'
+		tooltip: 'Insert Image'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:insert-image'
+		show: 'markdown'
+		icon: 'device-camera'
+	},
+	{
+		type: 'button'
+		tooltip: 'Bold'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:toggle-bold-text'
+		show: 'markdown'
+		icon: 'bold'
+	},
+	{
+		type: 'button'
+		tooltip: 'Italic'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:toggle-italic-text'
+		show: 'markdown'
+		icon: 'italic'
+	},
+	{
+		type: 'button'
+		tooltip: 'Code/Code Block'
+		dependency: 'markdown-writer'
+		callback: {
+			'': 'markdown-writer:toggle-code-text'
+			'shift': 'markdown-writer:toggle-codeblock-text'
+		}
+		show: 'markdown'
+		icon: 'code'
+	},
+	{
+		type: 'button'
+		tooltip: 'Unordered List'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:toggle-ul'
+		show: 'markdown'
+		icon: 'list-unordered'
+	},
+	{
+		type: 'button'
+		tooltip: 'Ordered List'
+		dependency: 'markdown-writer'
+		callback: {
+			'': 'markdown-writer:toggle-ol'
+			'shift': 'markdown-writer:correct-order-list-numbers'
+		}
+		show: 'markdown'
+		icon: 'list-ordered'
+	},
+	{
+		type: 'button'
+		tooltip: 'Task List'
+		dependency: 'markdown-writer'
+		callback: {
+			'': 'markdown-writer:toggle-task'
+			'shift': 'markdown-writer:toggle-taskdone'
+		}
+		show: 'markdown'
+		icon: 'tasklist'
+	},
+	{
+		type: 'button'
+		tooltip: 'Heading 1'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:toggle-h1'
+		show: 'markdown'
+		icon: 'milestone'
+	},
+	{
+		type: 'button'
+		tooltip: 'Heading 2'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:toggle-h2'
+		show: 'markdown'
+		icon: 'milestone'
+	},
+	{
+		type: 'button'
+		tooltip: 'Heading 3'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:toggle-h3'
+		show: 'markdown'
+		icon: 'milestone'
+	},
+	{
+		type: 'button'
+		tooltip: 'Insert Table'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:insert-table'
+		show: 'markdown'
+		icon: 'table'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Format Table'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:format-table'
+		show: 'markdown'
+		icon: 'table'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Markdown Preview'
+		dependency: 'markdown-writer'
+		callback: 'markdown-writer:open-cheat-sheet'
+		show: 'markdown'
+		icon: 'info'
+	},
+	{
+		type: 'spacer'
+	},
+	{
+		type: 'button'
+		tooltip: 'Run App'
+		dependency: 'npm-plus'
+		callback: 'npm-plus:start'
+		icon: 'play-circle'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Stop App'
+		dependency: 'npm-plus'
+		callback: 'npm-plus:stop'
+		icon: 'stop-circle'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Open PHP Dubugger'
+		dependency: 'php-debug'
+		callback: 'atom-debug-ui:toggleDebugging'
+		show: 'php'
+		icon: 'bug'
+	},
+	{
+		type: 'spacer'
+	},
+	{
+		type: 'button'
+		tooltip: 'Beautify'
+		dependency: 'atom-beautify'
+		callback: 'atom-beautify:beautify-editor'
+		icon: 'magic'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Auto indent (selection)'
+		callback: 'editor:auto-indent'
+		icon: 'indent'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Fold All'
+		callback: 'editor:fold-all'
+		icon: 'fold'
+	},
+	{
+		type: 'button'
+		tooltip: 'Unfold All'
+		callback: 'editor:unfold-all'
+		icon: 'unfold'
+	},
+	{
+		type: 'spacer'
+	},
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Git Plus'
+	# 	dependency: 'git-plus'
+	# 	callback: 'git-plus:menu'
+	# 	icon: 'git-plain'
+	# 	iconset: 'devicon'
+	# },
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Git Projects'
+	# 	dependency: 'git-projects'
+	# 	callback: 'git-projects:toggle'
+	# 	icon: 'git'
+	# 	iconset: 'fa'
+	# },
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Toggle Blame'
+	# 	dependency: 'blame'
+	# 	callback: 'blame:toggle'
+	# 	icon: 'sourcetree-plain'
+	# 	iconset: 'devicon'
+	# },
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Git Diff Details'
+	# 	dependency: 'git-diff-details'
+	# 	callback: 'git-diff-details:toggle-git-diff-details'
+	# 	icon: 'diff'
+	# },
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Merge Conflicts'
+	# 	dependency: 'merge-conflicts'
+	# 	callback: 'merge-conflicts:detect'
+	# 	icon: 'git-merge'
+	# },
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Git Time Machine'
+	# 	dependency: 'git-time-machine'
+	# 	callback: 'git-time-machine:toggle'
+	# 	icon: 'clock'
+	# },
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Open on Github'
+	# 	dependency: 'open-on-github'
+	# 	callback: 'open-on-github:repository'
+	# 	icon: 'mark-github'
+	# },
+	# {
+	# 	type: 'spacer'
+	# },
+	{
+		type: 'button'
+		tooltip: 'Toggle Fullscreen'
+		callback: 'window:toggle-full-screen'
+		icon: 'screen-full'
+	},
+	{
+		type: 'button'
+		tooltip: 'Split screen - Vertically'
+		callback: 'pane:split-right'
+		icon: 'format-horizontal-align-center'
+		iconset: 'mdi'
+	},
+	{
+		type: 'button'
+		tooltip: 'Split screen - Horizontally'
+		callback: 'pane:split-down'
+		icon: 'format-vertical-align-center'
+		iconset: 'mdi'
+	},
+	{
+		type: 'button'
+		tooltip: 'Split Diff'
+		dependency: 'split-diff'
+		callback: 'split-diff:toggle'
+		icon: 'clone'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Toggle Sidebar'
+		callback: 'tree-view:toggle'
+		icon: 'sitemap'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Toggle Minimap'
+		dependency: 'minimap'
+		callback: 'minimap:toggle'
+		icon: 'map'
+		iconset: 'fa'
+	},
+	{
+		type: 'spacer'
+	},
+	{
+		type: 'button'
+		tooltip: 'Reload Window'
+		callback: 'window:reload'
+		icon: 'sync'
+	},
+	{
+		type: 'button'
+		tooltip: 'Toggle Developer Tools'
+		callback: 'window:toggle-dev-tools'
+		icon: 'beaker'
+	},
+	{
+		type: 'button'
+		tooltip: 'Open Command Palette'
+		callback: 'command-palette:toggle'
+		icon: 'keyboard'
+	},
+	{
+		type: 'button'
+		callback: 'atom-toolbar-preferred:edit-config-file'
+		tooltip: 'Edit Tool Bar'
+		icon: 'briefcase'
+	},
+	{
+		type: 'button'
+		tooltip: 'Open Settings View'
+		callback: 'settings-view:open'
+		icon: 'tools'
+	},
+	{
+		type: 'spacer'
+	},
+	{
+		type: 'url'
+		tooltip: 'Docs'
+		url: 'https://devdocs.io'
+		icon: 'book'
+	},
+	{
+		type: 'spacer'
+	}
+]
