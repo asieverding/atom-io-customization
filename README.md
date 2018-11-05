@@ -87,22 +87,15 @@ Packages from [https://www.npmjs.com/](https://www.npmjs.com/) ⇒ `npm install 
 
 ##### Configuration files for Atom.io & packages ⇒ `~/.atom` Directory
 
-- config.cson
-- github.cson
-- init.coffee
-- keymap.cson
-- snippets.cson
-- styles.less
+⇒ [Show files](https://github.com/Teddy95/atom-io-customization/tree/master/atom)
 
 ##### Configuration files for Linters ⇒ `~/` Directory
 
-- .jshintrc
-- .htmlhintrc
-- ...
+⇒ [Show files](https://github.com/Teddy95/atom-io-customization/tree/master/linter-conf)
 
-##### Configuration files for XDebug ⇒ `./extra` inside Directory which contains `php.ini`
+##### Configuration file for XDebug ⇒ `./extra` inside Directory which contains `php.ini`
 
-- xdebug.php.ini
+- xdebug/ext-xdebug.ini
 
 __Note:__ _Set the IP address in XDebug ini file / php-debug settings to your local ip, which you've got by your router._
 
