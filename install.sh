@@ -47,8 +47,13 @@ do
 	# Only if it is a .cson, .coffee, .txt, .json or .less file
 	if [[ "$file" == ./*.png ]]
 	then
+		# Change into ~/.atom directory
+		cd ~/.atom
+		
 		# Create touchbar-icons directory, if doesn't exists
-		# ...
+		if [ ! -d "touchbar-icons" ]; then
+			mkdir touchbar-icons
+		fi
 
 		# Change into ~/.atom/touchbar-icons directory
 		cd ~/.atom/touchbar-icons
