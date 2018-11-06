@@ -28,6 +28,7 @@ Mac OS Touchbar integration :alien:
 ### Installation Guide
 
     $ git clone https://github.com/Teddy95/atom-io-customization
+	$ cd atom-io-customization
     $ ./install.sh
 
 ### Backup your Atom.io environment for new installation
