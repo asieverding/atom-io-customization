@@ -7,7 +7,7 @@ echo "\nWelcome to automatic Atom.io installer with packages by Andre Sieverding
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # Change into ~/.atom directory
-cd ~/.atom
+cd "${HOME}/.atom"
 
 # Install apm packages
 echo "Installing Atom.io packages...\n"
@@ -30,10 +30,10 @@ do
 	if [[ "$file" == ./*.cson ]] || [[ "$file" == ./*.coffee ]] || [[ "$file" == ./*.txt ]] || [[ "$file" == ./*.json ]] || [[ "$file" == ./*.less ]]
 	then
 		# Change into ~/.atom directory
-		cd ~/.atom
+		cd "${HOME}/.atom"
 
 		relFile=$(echo $file | cut -c 3-)
-		echo "Copying: ${relFile} -> ~/.atom/${relFile}"
+		echo "Copying: ${relFile} -> ${HOME}/.atom/${relFile}"
   		cp "${dir}/atom/${relFile}" $relFile
 	fi
 done
@@ -48,7 +48,7 @@ do
 	if [[ "$file" == ./*.png ]]
 	then
 		# Change into ~/.atom directory
-		cd ~/.atom
+		cd "${HOME}/.atom"
 		
 		# Create touchbar-icons directory, if doesn't exists
 		if [ ! -d "touchbar-icons" ]; then
@@ -59,18 +59,18 @@ do
 		cd ./touchbar-icons
 
 		relFile=$(echo $file | cut -c 3-)
-		echo "Copying: ${relFile} -> ~/.atom/touchbar-icons/${relFile}"
+		echo "Copying: ${relFile} -> ${HOME}/.atom/touchbar-icons/${relFile}"
   		cp "${dir}/icon/${relFile}" $relFile
 	fi
 done
 
 # Change into ~/ directory
-cd ~/
+cd $HOME
 
 # Copy linter configurations
-echo "Copying: ${dir}/linter-conf/.htmlhintrc -> ~/.htmlhintrc"
+echo "Copying: ${dir}/linter-conf/.htmlhintrc -> ${HOME}/.htmlhintrc"
 cp "${dir}/linter-conf/.htmlhintrc" .htmlhintrc
-echo "Copying: ${dir}/linter-conf/.jshintrc -> ~/.jshintrc"
+echo "Copying: ${dir}/linter-conf/.jshintrc -> ${HOME}/.jshintrc"
 cp "${dir}/linter-conf/.jshintrc" .jshintrc
 
 # Done! :)
