@@ -15,6 +15,7 @@ echo "Calling backup-script -> backup.sh"
 
 # Remove apm packages
 echo "Removing Atom.io packages...\n"
+echo "Package removing is in development!"
 #apm uninstall --packages-file "${dir}/atom/package-list.txt"
 echo "\n"
 
@@ -26,7 +27,7 @@ echo "Removing configuration files and touchbar icons...\n"
 
 # Remove linter-configurations
 echo "Remove: .htmlhintrc"
-rm .htmlhtinrc
+rm .htmlhintrc
 echo "Remove: .jshintrc"
 rm .jshintrc
 
