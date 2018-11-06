@@ -74,4 +74,4 @@ echo "Copying: ${dir}/linter-conf/.jshintrc -> ~/.jshintrc"
 cp "${dir}/linter-conf/.jshintrc" .jshintrc
 
 # Done! :)
-echo "\nDone ✅\nEnjoy your customized Atom.io Codeeditor!\n"
+echo "\nDone ✅\nEnjoy your customized Atom.io Code-Editor!\n"
