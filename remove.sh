@@ -10,8 +10,8 @@ dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 cd $dir
 
 # First of all, create backup from your Atom.io packages and configurations
-echo "Calling backup-script -> backup.sh"
-./backup.sh
+# echo "Calling backup-script -> backup.sh"
+# ./backup.sh
 
 # Remove apm packages
 echo "Removing Atom.io packages...\n"
@@ -50,4 +50,4 @@ echo "Remove: touchbar-icons/"
 rm -r ./touchbar-icons
 
 # Done! :)
-echo "\n\nDone ✅\nEnjoy your customized Atom.io Codeeditor!\n"
+echo "\nDone ✅\nEnjoy your customized Atom.io Codeeditor!\n"
