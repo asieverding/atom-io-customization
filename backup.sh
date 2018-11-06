@@ -4,7 +4,7 @@
 echo "\nWelcome to automatic Atom.io backup script by Andre Sieverding\n"
 echo "Updating script..."
 
-# Get absolute directory path of current dir
+# Get absolute directory path of current file
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # Change into ~/.atom directory
