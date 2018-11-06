@@ -68,9 +68,9 @@ done
 cd $HOME
 
 # Copy linter configurations
-echo "Copying: ${dir}/linter-conf/.htmlhintrc -> ${HOME}/.htmlhintrc"
+echo "Copying: .htmlhintrc -> ${HOME}/.htmlhintrc"
 cp "${dir}/linter-conf/.htmlhintrc" .htmlhintrc
-echo "Copying: ${dir}/linter-conf/.jshintrc -> ${HOME}/.jshintrc"
+echo "Copying: .jshintrc -> ${HOME}/.jshintrc"
 cp "${dir}/linter-conf/.jshintrc" .jshintrc
 
 # Done! :)
