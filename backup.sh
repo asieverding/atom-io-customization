@@ -33,15 +33,7 @@ if [ -d "touchbar-icons" ]; then
 	# Change into icon directory
 	cd ./touchbar-icons
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	# Copy touchbar icons
-=======
-	# Copy tochbar icons
->>>>>>> 1a09e9bbc880ddc47fd40bb8fc3f197f35d17e7d
-=======
-	# Copy tochbar icons
->>>>>>> 1a09e9bbc880ddc47fd40bb8fc3f197f35d17e7d
 	for file in ./*
 	do
 		# Only .png
