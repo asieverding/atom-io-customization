@@ -29,14 +29,19 @@ do
 	# Only if it is a .cson, .coffee, .txt, .json or .less file
 	if [[ "$file" == ./*.cson ]] || [[ "$file" == ./*.coffee ]] || [[ "$file" == ./*.txt ]] || [[ "$file" == ./*.json ]] || [[ "$file" == ./*.less ]]
 	then
-		# Change into ~/.atom directory
-		cd ${HOME}/.atom
-
 		relFile=$(echo $file | cut -c 3-)
 		echo "Copying: ${relFile} -> ${HOME}/.atom/${relFile}"
-  		cp ${dir}/atom/${relFile} $relFile
+  		cp $relFile ${HOME}/.atom/${relFile}
 	fi
 done
+
+# Change into ~/.atom directory
+cd ${HOME}/.atom
+
+# Create touchbar-icons directory, if doesn't exists
+if [ ! -d "touchbar-icons" ]; then
+	mkdir touchbar-icons
+fi
 
 # Change into atom-io-customization/icon directory
 cd ${dir}/icon
@@ -47,20 +52,9 @@ do
 	# Only if it is a .png file
 	if [[ "$file" == ./*.png ]]
 	then
-		# Change into ~/.atom directory
-		cd ${HOME}/.atom
-
-		# Create touchbar-icons directory, if doesn't exists
-		if [ ! -d "touchbar-icons" ]; then
-			mkdir touchbar-icons
-		fi
-
-		# Change into ~/.atom/touchbar-icons directory
-		cd ./touchbar-icons
-
 		relFile=$(echo $file | cut -c 3-)
 		echo "Copying: ${relFile} -> ${HOME}/.atom/touchbar-icons/${relFile}"
-  		cp ${dir}/icon/${relFile} $relFile
+  		cp $relFile ${HOME}/.atom/touchbar-icons/${relFile}
 	fi
 done
 
