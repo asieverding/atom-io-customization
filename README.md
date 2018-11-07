@@ -71,6 +71,7 @@ Packages from <https://atom.io/packages> ⇒ `apm install package-name`
 -   [x] file-icons
 -   [x] ide-php
 -   [x] intentions
+-   [x] language-batch
 -   [x] language-swift
 -   [x] linter
 -   [x] linter-csslint
