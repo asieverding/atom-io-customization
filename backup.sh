@@ -8,7 +8,7 @@ echo "Backing up packages and configurations into repository..."
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # Change into ~/.atom directory
-cd "${HOME}/.atom"
+cd ${HOME}/.atom
 
 # Update package-list
 echo "Updating package-list...\n"
@@ -24,7 +24,7 @@ do
 	then
 		relFile=$(echo $file | cut -c 3-)
 		echo "Copying: ${HOME}/.atom/${relFile} -> ${dir}/atom/${relFile}"
-  		cp $relFile "${dir}/atom/${relFile}"
+  		cp $relFile ${dir}/atom/${relFile}
 	fi
 done
 
@@ -41,7 +41,7 @@ if [ -d "touchbar-icons" ]; then
 		then
 			relFile=$(echo $file | cut -c 3-)
 			echo "Copying: ${HOME}/.atom/touchbar-icons/${relFile} -> ${dir}/icon/${relFile}"
-	  		cp $relFile "${dir}/icon/${relFile}"
+	  		cp $relFile ${dir}/icon/${relFile}
 		fi
 	done
 fi
@@ -51,9 +51,9 @@ cd $HOME
 
 # Copy linter configurations
 echo "Copying: ${HOME}/.htmlhintrc -> ${dir}/linter-conf/.htmlhintrc"
-cp .htmlhintrc "${dir}/linter-conf/.htmlhintrc"
+cp .htmlhintrc ${dir}/linter-conf/.htmlhintrc
 echo "Copying: ${HOME}/.jshintrc -> ${dir}/linter-conf/.jshintrc"
-cp .jshintrc "${dir}/linter-conf/.jshintrc"
+cp .jshintrc ${dir}/linter-conf/.jshintrc
 
 echo "Done copying\n"
 
