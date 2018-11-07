@@ -11,6 +11,7 @@ docblockr@0.13.7
 file-icons@2.1.26
 ide-php@0.7.15
 intentions@1.1.5
+language-batch@0.4.0
 language-swift@0.5.0
 linter@2.2.0
 linter-csslint@2.0.1
