@@ -41,7 +41,7 @@ done
 # Change into atom-io-customization/icon directory
 cd ${dir}/icon
 
-# Copy all configurations into current directory
+# Copy touchbar-icons
 for file in ./*
 do
 	# Only if it is a .png file
@@ -49,7 +49,7 @@ do
 	then
 		# Change into ~/.atom directory
 		cd "${HOME}/.atom"
-		
+
 		# Create touchbar-icons directory, if doesn't exists
 		if [ ! -d "touchbar-icons" ]; then
 			mkdir touchbar-icons
