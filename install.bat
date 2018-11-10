@@ -19,7 +19,6 @@ REM Install apm packages
 echo Installing Atom.io packages...
 echo\
 call apm install --packages-file %dir%\atom\package-list.txt
-echo Package List goes here
 echo\
 
 REM Install npm packages
