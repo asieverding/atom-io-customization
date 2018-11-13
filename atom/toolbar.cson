@@ -4,8 +4,8 @@
 [
 	{
 		type: 'button'
-		tooltip: 'Open File'
-		callback: 'application:open-file'
+		tooltip: 'New File'
+		callback: 'application:new-file'
 		icon: 'file-code'
 	},
 	{
