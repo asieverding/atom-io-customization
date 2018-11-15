@@ -9,7 +9,7 @@ busy-signal@1.4.3
 color-picker@2.3.0
 docblockr@0.13.7
 file-icons@2.1.26
-ide-php@0.7.15
+ide-php@0.7.17
 intentions@1.1.5
 language-batch@0.4.0
 language-swift@0.5.0

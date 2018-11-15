@@ -153,7 +153,7 @@
   "touchbar-utility":
     backup: '''
       const { dispatchAction } = require('./dispatchAction');
-      
+
       exports.configuration = [{
         type: 'label',
         label: 'touchbar-utility rocks! 🎸🤘'
@@ -198,7 +198,7 @@
           }
         }]
       }]
-      
+
     '''
     lastVersion: "3.3.0"
   welcome:
