@@ -182,25 +182,25 @@
 	{
 		type: 'button'
 		tooltip: 'Run App'
-		dependency: 'npm-plus'
-		callback: 'npm-plus:start'
+		dependency: 'atom-npm'
+		callback: 'atom-npm:run'
 		icon: 'play-circle'
 		iconset: 'fa'
 	},
 	{
 		type: 'button'
-		tooltip: 'Stop App'
-		dependency: 'npm-plus'
-		callback: 'npm-plus:stop'
-		icon: 'stop-circle'
+		tooltip: 'Install Dependencies'
+		dependency: 'atom-npm'
+		callback: 'atom-npm:install-dependencies'
+		icon: 'plus-circle'
 		iconset: 'fa'
 	},
 	{
 		type: 'button'
-		tooltip: 'Install App'
-		dependency: 'npm-plus'
-		callback: 'npm-plus:install'
-		icon: 'plus-circle'
+		tooltip: 'Update Dependencies'
+		dependency: 'atom-npm'
+		callback: 'atom-npm:update-dependencies'
+		icon: 'dot-circle'
 		iconset: 'fa'
 	},
 	{
