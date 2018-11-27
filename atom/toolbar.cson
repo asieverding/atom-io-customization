@@ -197,6 +197,14 @@
 	},
 	{
 		type: 'button'
+		tooltip: 'Install App'
+		dependency: 'npm-plus'
+		callback: 'npm-plus:install'
+		icon: 'plus-circle'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
 		tooltip: 'Open PHP Dubugger'
 		dependency: 'php-debug'
 		callback: 'atom-debug-ui:toggleDebugging'
