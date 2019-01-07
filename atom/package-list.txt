@@ -6,7 +6,7 @@ atom-ide-ui@0.13.0
 atom-npm@0.3.1
 atom-toolbar-preferred@1.4.1
 browser-plus@0.0.98
-busy-signal@1.4.3
+busy-signal@2.0.0
 color-picker@2.3.0
 docblockr@0.13.7
 file-icons@2.1.27
