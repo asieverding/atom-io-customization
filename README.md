@@ -29,9 +29,16 @@ Mac OS Touchbar integration :alien:
 
 ##### Mac OS X
 
-    $ git clone https://github.com/Teddy95/atom-io-customization
-    $ cd atom-io-customization
-    $ ./install.sh
+```shell
+# Clone repository
+$ git clone https://github.com/Teddy95/atom-io-customization.git
+
+# Change directory
+$ cd atom-io-customization
+
+# Execute install.sh
+$ ./install.sh
+```
 
 ##### Windows
 
@@ -56,7 +63,7 @@ Execute backup.bat
 
 ### Included Atom.io packages
 
-Packages from <https://atom.io/packages> ⇒ `apm install package-name`
+Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 
 -  [x] atom-beautify
 -  [x] atom-debug-ui
@@ -101,7 +108,7 @@ Packages from <https://atom.io/packages> ⇒ `apm install package-name`
 
 ### Included Node.js packages
 
-Packages from <https://www.npmjs.com/> ⇒ `npm install package-name`
+Packages from <https://www.npmjs.com/> ⇒ `npm install <package>`
 
 -   [x] asar
 -   [x] electron-packager
