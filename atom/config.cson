@@ -122,6 +122,8 @@
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer": {}
+  "metro-ui":
+    themeAccentColor: "#0763d8"
   minimap:
     autoToggle: false
     plugins:
