@@ -56,6 +56,10 @@
     "debugger-exceptionBreakpointsCollapsed": false
     hyperclick:
       darwinTriggerKeys: "ctrlKey"
+  "atom-package-deps":
+    ignored: [
+      "language-marko"
+    ]
   "atom-toolbar-preferred": {}
   "atom-touch-bar": {}
   "autocomplete-plus":
