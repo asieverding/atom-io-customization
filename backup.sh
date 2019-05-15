@@ -66,4 +66,4 @@ rm node-package-list.json
 npm list -json -g --depth=0 >> node-package-list.json
 
 # Done! :)
-echo "\nDone ✅\nDon't forget to remove Node.js packages from packagelist file, which you don't need for this setup!\n"
+echo "\nDone ✅\n"

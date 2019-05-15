@@ -78,8 +78,14 @@
     disabledPackages: [
       "wrap-guide"
       "linter"
-      "linter-sass-lint"
-      "atom-ide-debugger-node"
+      "atom-beautify"
+      "atom-debug-ui"
+      "linter-csslint"
+      "linter-less"
+      "minimap-linter"
+      "php-debug"
+      "react"
+      "semantic-ui"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"
@@ -144,7 +150,7 @@
       protocolDebugging: true
       redirectStderr: true
       redirectStdout: true
-      serverAddress: "192.168.2.104"
+      serverAddress: "192.168.2.107"
     showWelcome: false
     xdebug:
       pathMaps: "[{\"remotePath\":\"/null\",\"localPath\":\"!\"}]"
@@ -208,5 +214,7 @@
       
     '''
     lastVersion: "3.3.0"
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false

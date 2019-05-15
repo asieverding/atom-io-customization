@@ -14,10 +14,6 @@ echo "Installing Atom.io packages...\n"
 apm install --packages-file "${dir}/atom/package-list.txt"
 echo "\n"
 
-# Install npm packages
-# echo "Installing Node.js packages...\n"
-# ...
-
 # Change into atom-io-customization/atom directory
 cd ${dir}/atom
 

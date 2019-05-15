@@ -66,8 +66,6 @@ echo\
 
 echo Done! :)
 echo\
-echo Don^'t forget to remove Node.js packages from packagelist file, which you don't need ^for this setup!
-echo\
 
 pause
 endlocal

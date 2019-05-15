@@ -21,10 +21,6 @@ echo\
 call apm install --packages-file %dir%\atom\package-list.txt
 echo\
 
-REM Install npm packages
-REM echo "Installing Node.js packages...\n"
-REM ...
-
 REM Change into atom-io-customization/atom directory
 cd %dir%\atom
 
