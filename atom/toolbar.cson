@@ -378,13 +378,13 @@
 	{
 		type: 'spacer'
 	},
-	{
-		type: 'url'
-		tooltip: 'Docs'
-		url: 'https://devdocs.io'
-		icon: 'book'
-	},
-	{
-		type: 'spacer'
-	}
+	# {
+	# 	type: 'url'
+	# 	tooltip: 'Docs'
+	# 	url: 'https://devdocs.io'
+	# 	icon: 'book'
+	# },
+	# {
+	# 	type: 'spacer'
+	# }
 ]

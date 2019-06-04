@@ -65,14 +65,10 @@ Execute backup.bat
 
 Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 
-- [x] atom-beautify
 - [x] atom-debug-ui
 - [x] atom-html-preview
-- [x] atom-ide-debugger-node
-- [x] atom-ide-ui
 - [x] atom-npm
 - [x] atom-toolbar-preferred
-- [x] browser-plus
 - [x] busy-signal
 - [x] color-picker
 - [x] docblockr
@@ -101,8 +97,6 @@ Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 - [x] one-dark-monokai
 - [x] open-in-browser
 - [x] php-debug
-- [x] react
-- [x] semantic-ui
 - [x] teletype
 - [x] tool-bar
 - [x] touchbar

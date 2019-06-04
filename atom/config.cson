@@ -78,14 +78,12 @@
     disabledPackages: [
       "wrap-guide"
       "linter"
-      "atom-beautify"
       "atom-debug-ui"
-      "linter-csslint"
       "linter-less"
       "minimap-linter"
       "php-debug"
-      "react"
-      "semantic-ui"
+      "language-swift"
+      "linter-swiftc"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"
@@ -162,7 +160,7 @@
     useTouchBar: false
   "tool-bar-markdown-writer": {}
   touchbar:
-    buttons: "[{\"type\":\"button\",\"name\":\"Config 1541358660400\",\"icon\":\"/Users/andre/.atom/touchbar-icons/new-file.png\",\"label\":\"\",\"iconColor\":\"default\",\"command\":\"application:open-file\"},{\"type\":\"button\",\"name\":\"Config 1541361769276\",\"icon\":\"/Users/andre/.atom/touchbar-icons/save.png\",\"command\":\"core:save\"},{\"type\":\"button\",\"name\":\"Config 1541361769422\",\"icon\":\"/Users/andre/.atom/touchbar-icons/run-app.png\",\"command\":\"npm-plus:start\"},{\"type\":\"button\",\"name\":\"Config 1541362671587\",\"icon\":\"/Users/andre/.atom/touchbar-icons/beautify.png\",\"command\":\"atom-beautify:beautify-editor\"},{\"type\":\"button\",\"name\":\"Config 1541361769671\",\"icon\":\"/Users/andre/.atom/touchbar-icons/toggle-sidebar.png\",\"command\":\"tree-view:toggle\"},{\"type\":\"button\",\"name\":\"Config 1541361770302\",\"icon\":\"/Users/andre/.atom/touchbar-icons/reload-window.png\",\"command\":\"window:reload\"},{\"type\":\"button\",\"name\":\"Config 1541361770880\",\"icon\":\"/Users/andre/.atom/touchbar-icons/settings.png\",\"command\":\"settings-view:open\"},{\"type\":\"button\",\"name\":\"Config 1541361799590\",\"icon\":\"/Users/andre/.atom/touchbar-icons/docs.png\",\"command\":\"browser-plus:open\"}]"
+    buttons: "[{\"type\":\"color-picker\",\"name\":\"Config 1559664035233\",\"iconColor\":\"default\"},{\"type\":\"button\",\"name\":\"Config 1541358660400\",\"icon\":\"/Users/andre/.atom/touchbar-icons/new-file.png\",\"label\":\"\",\"iconColor\":\"default\",\"command\":\"application:open-file\",\"elements\":[]},{\"type\":\"button\",\"name\":\"Config 1541361769276\",\"icon\":\"/Users/andre/.atom/touchbar-icons/save.png\",\"command\":\"core:save\"},{\"type\":\"button\",\"name\":\"Config 1541361769422\",\"icon\":\"/Users/andre/.atom/touchbar-icons/run-app.png\",\"command\":\"npm-plus:start\"},{\"type\":\"button\",\"name\":\"Config 1541362671587\",\"icon\":\"/Users/andre/.atom/touchbar-icons/beautify.png\",\"command\":\"atom-beautify:beautify-editor\"},{\"type\":\"button\",\"name\":\"Config 1541361769671\",\"icon\":\"/Users/andre/.atom/touchbar-icons/toggle-sidebar.png\",\"command\":\"tree-view:toggle\"},{\"type\":\"button\",\"name\":\"Config 1541361770302\",\"icon\":\"/Users/andre/.atom/touchbar-icons/reload-window.png\",\"command\":\"window:reload\"},{\"type\":\"button\",\"name\":\"Config 1541361770880\",\"icon\":\"/Users/andre/.atom/touchbar-icons/settings.png\",\"command\":\"settings-view:open\"}]"
   "touchbar-utility":
     backup: '''
       const { dispatchAction } = require('./dispatchAction');
