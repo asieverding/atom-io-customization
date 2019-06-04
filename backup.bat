@@ -58,12 +58,6 @@ echo\
 REM Change into atom-io-customization directory
 cd %dir%
 
-REM Create Node.js package-list
-echo Create Node.js package-list...
-del node-package-list.json
-call npm list -json -g --depth=0 >> node-package-list.json
-echo\
-
 echo Done! :)
 echo\
 

@@ -60,10 +60,5 @@ echo "Done copying\n"
 # Change into atom-io-customization directory
 cd $dir
 
-# Create Node.js package-list
-echo "Create Node.js package-list..."
-rm node-package-list.json
-npm list -json -g --depth=0 >> node-package-list.json
-
 # Done! :)
 echo "\nDone ✅\n"
