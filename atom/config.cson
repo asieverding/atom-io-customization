@@ -115,6 +115,7 @@
   linter: {}
   "linter-htmlhint": {}
   "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
     jshintFileName: "/Users/andre/.jshintrc"
     lintInlineJavaScript: true
   "linter-less":

@@ -17,13 +17,13 @@ linter-htmlhint@1.6.2
 linter-jshint@3.1.16
 linter-jsonlint@1.4.0
 linter-less@2.6.0
-linter-markdown@5.2.7
+linter-markdown@5.2.9
 linter-php@1.6.1
 linter-sass-lint@1.9.0
 linter-swiftc@2.1.0
 linter-ui-default@1.7.1
 linter-xmllint@1.4.4
-markdown-writer@2.11.5
+markdown-writer@2.11.7
 minimap@4.29.9
 minimap-linter@2.2.1
 multi-cursor@2.1.5
@@ -31,6 +31,6 @@ one-dark-monokai@0.5.0
 open-in-browser@0.5.2
 php-debug@0.3.5
 teletype@0.13.4
-tool-bar@1.1.11
+tool-bar@1.1.12
 touchbar@0.14.2
 
