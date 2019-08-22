@@ -20,15 +20,12 @@ cd ${dir}/atom
 # Copy all configurations into current directory
 echo "Copying files...\n"
 
-for file in ./*
+# Only if it is a .cson, .coffee, .txt, .json or .less file or a linter configuration & gitignore file
+for file in $(find ./ -maxdepth 1 -name '*.cson' -or -name '*.coffee' -or -name '*.txt' -or -name '*.json' -or -name '*.less' -or -name '.htmlhintrc' -or -name '.jshintrc' -or -name '.sass-lint.yml' -or -name '.gitignore')
 do
-	# Only if it is a .cson, .coffee, .txt, .json or .less file
-	if [[ "$file" == ./*.cson ]] || [[ "$file" == ./*.coffee ]] || [[ "$file" == ./*.txt ]] || [[ "$file" == ./*.json ]] || [[ "$file" == ./*.less ]]
-	then
-		relFile=$(echo $file | cut -c 3-)
-		echo "Copying: ${relFile} -> ${HOME}/.atom/${relFile}"
-  		cp $relFile ${HOME}/.atom/${relFile}
-	fi
+	relFile=$(echo $file | cut -c 4-)
+	echo "Copying: ${relFile} -> ${HOME}/.atom/${relFile}"
+	cp $relFile ${HOME}/.atom/${relFile}
 done
 
 # Change into ~/.atom directory
@@ -56,12 +53,6 @@ done
 
 # Change into ~/ directory
 cd $HOME
-
-# Copy linter configurations
-echo "Copying: .htmlhintrc -> ${HOME}/.htmlhintrc"
-cp ${dir}/linter-conf/.htmlhintrc .htmlhintrc
-echo "Copying: .jshintrc -> ${HOME}/.jshintrc"
-cp ${dir}/linter-conf/.jshintrc .jshintrc
 
 # Done! :)
 echo "\nDone ✅\nEnjoy your customized Atom.io Code-Editor!\n"

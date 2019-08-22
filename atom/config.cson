@@ -74,16 +74,14 @@
     preferredFormat: "HEX"
     triggerKey: "E"
   core:
+    automaticallyUpdate: false
     closeEmptyWindows: false
     disabledPackages: [
       "wrap-guide"
-      "linter"
       "atom-debug-ui"
-      "linter-less"
-      "minimap-linter"
       "php-debug"
-      "language-swift"
-      "linter-swiftc"
+      "language-batch"
+      "multi-cursor"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"
@@ -91,6 +89,7 @@
       "atom-touch-bar"
       "atom-touchbar"
       "hyperclick"
+      "tool-bar"
     ]
     projectHome: "/Users/andre/Dokumente/GitHub"
     telemetryConsent: "no"
@@ -100,6 +99,9 @@
     ]
     uriHandlerRegistration: "always"
   editor:
+    fontFamily: "Menlo, Monaco, 'Courier New', monospace"
+    fontSize: 13
+    invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
     softTabs: false
@@ -108,15 +110,21 @@
     userId: "04f29aa6-1c13-4aaa-96a7-2ad326667bcd"
   "file-icons":
     strategies: {}
+  "flex-tool-bar":
+    toolBarConfigurationFilePath: "Users/Andre/.atom"
   github:
     gitDiagnostics: true
+  "google-translate-modal-English-Version":
+    lang: "de"
   "ide-php":
     phpPath: "/usr/bin/php"
-  linter: {}
-  "linter-htmlhint": {}
+  linter:
+    lintOnChange: false
+    lintPreviewTabs: false
+  "linter-htmlhint":
+    disableWhenNoHtmlhintConfig: false
   "linter-jshint":
-    disableWhenNoJshintrcFileInPath: true
-    jshintFileName: "/Users/andre/.jshintrc"
+    jshintFileName: "~/.atom/.jshintrc"
     lintInlineJavaScript: true
   "linter-less":
     ignoreLessrc: true
@@ -124,10 +132,14 @@
     ignoreUndefinedVariables: false
   "linter-markdown":
     detectIgnore: false
+  "linter-php":
+    executablePath: "/usr/bin/php"
+  "linter-sass-lint":
+    configFile: "~/.atom/.sass-lint.yml"
   "linter-ui-default":
-    alwaysTakeMinimumSpace: true
-    panelHeight: 262
-    showStatusBar: false
+    decorateOnTreeView: "Files and Directories"
+    panelHeight: 200
+    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer": {}
@@ -139,6 +151,7 @@
       linter: true
       linterDecorationsZIndex: 0
   "one-dark-ui":
+    fontSize: 11
     tabCloseButton: "Left"
   "php-debug":
     exceptions: {}
@@ -154,6 +167,7 @@
     xdebug:
       pathMaps: "[{\"remotePath\":\"/null\",\"localPath\":\"!\"}]"
   "slack-chat": {}
+  "terminal-tab": {}
   "toggle-gutter": {}
   "tool-bar":
     fullWidth: false
@@ -213,7 +227,6 @@
       
     '''
     lastVersion: "3.3.0"
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false

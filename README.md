@@ -6,8 +6,6 @@ Also a functionality for running Electron / NodeJS Apps from toolbar is included
 
 ![Markdown Editor & Preview](img/screen_1.png)
 ![PHP IDE & Debugger](img/screen_2.png)
-![Electron IDE - Run App from toolbar](img/screen_3.png)
-![Integrated browser for Documentations](img/screen_4.png)
 
 Mac OS Touchbar integration :alien:
 
@@ -65,49 +63,39 @@ Execute backup.bat
 
 Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 
-- [x] atom-debug-ui
-- [x] atom-html-preview
-- [x] atom-npm
-- [x] atom-toolbar-preferred
-- [x] busy-signal
-- [x] color-picker
-- [x] docblockr
-- [x] file-icons
-- [x] ide-php
-- [x] intentions
-- [x] language-batch
-- [x] language-marko
-- [x] language-swift
-- [x] linter
-- [x] linter-csslint
-- [x] linter-htmlhint
-- [x] linter-jshint
-- [x] linter-jsonlint
-- [x] linter-less
-- [x] linter-markdown
-- [x] linter-php
-- [x] linter-sass-lint
-- [x] linter-swiftc
-- [x] linter-ui-default
-- [x] linter-xmllint
-- [x] markdown-writer
-- [x] minimap
-- [x] minimap-linter
-- [x] multi-cursor
-- [x] one-dark-monokai
-- [x] open-in-browser
-- [x] php-debug
-- [x] teletype
-- [x] tool-bar
-- [x] touchbar
+- atom-debug-ui
+- busy-signal
+- color-picker
+- docblockr
+- file-icons
+- flex-tool-bar
+- google-translate-modal-English-Version
+- ide-php
+- intentions
+- language-batch
+- language-marko
+- linter
+- linter-htmlhint
+- linter-jshint
+- linter-php
+- linter-sass-lint
+- linter-ui-default
+- markdown-commander
+- minimap
+- multi-cursor
+- one-dark-monokai
+- php-debug
+- teletype
+- terminal-tab
+- tool-bar
+- touchbar
 
 ### Included Node.js packages
 
 Packages from <https://www.npmjs.com/> ⇒ `npm install <package>`
 
--   [x] jshint
--   [x] jsonlint
--   [x] sass-lint
+-   [ ] jshint
+-   [ ] sass-lint
 
 **Note:** _Node.js packages aren't included in install script!_
 

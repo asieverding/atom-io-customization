@@ -17,15 +17,12 @@ apm list --installed --bare > package-list.txt
 # Copy all configurations into current directory
 echo "Copying files...\n"
 
-for file in ./*
+# Only if it is a .cson, .coffee, .txt, .json or .less file or a linter configuration & gitignore file
+for file in $(find ./ -maxdepth 1 -name '*.cson' -or -name '*.coffee' -or -name '*.txt' -or -name '*.json' -or -name '*.less' -or -name '.htmlhintrc' -or -name '.jshintrc' -or -name '.sass-lint.yml' -or -name '.gitignore')
 do
-	# Only if it is a .cson, .coffee, .txt, .json or .less file
-	if [[ "$file" == ./*.cson ]] || [[ "$file" == ./*.coffee ]] || [[ "$file" == ./*.txt ]] || [[ "$file" == ./*.json ]] || [[ "$file" == ./*.less ]]
-	then
-		relFile=$(echo $file | cut -c 3-)
-		echo "Copying: ${HOME}/.atom/${relFile} -> ${dir}/atom/${relFile}"
-  		cp $relFile ${dir}/atom/${relFile}
-	fi
+	relFile=$(echo $file | cut -c 4-)
+	echo "Copying: ${HOME}/.atom/${relFile} -> ${dir}/atom/${relFile}"
+	cp $relFile ${dir}/atom/${relFile}
 done
 
 # Copy touchbar-icons only when exists
@@ -48,12 +45,6 @@ fi
 
 # Change into ~/ directory
 cd $HOME
-
-# Copy linter configurations
-echo "Copying: ${HOME}/.htmlhintrc -> ${dir}/linter-conf/.htmlhintrc"
-cp .htmlhintrc ${dir}/linter-conf/.htmlhintrc
-echo "Copying: ${HOME}/.jshintrc -> ${dir}/linter-conf/.jshintrc"
-cp .jshintrc ${dir}/linter-conf/.jshintrc
 
 echo "Done copying\n"
 

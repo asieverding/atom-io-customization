@@ -31,5 +31,7 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 
-'body':
+'.editor':
 	'shift-cmd-i': 'window:toggle-invisibles'
+	'cmd-i': 'editor:auto-indent'
+	'shift-cmd-e': 'color-picker:open'
