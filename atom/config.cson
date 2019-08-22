@@ -139,7 +139,6 @@
   "linter-ui-default":
     decorateOnTreeView: "Files and Directories"
     panelHeight: 200
-    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer": {}
