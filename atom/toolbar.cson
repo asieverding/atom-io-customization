@@ -27,7 +27,7 @@
 		type: 'button'
 		tooltip: 'Auto indent (selection)'
 		callback: 'editor:auto-indent'
-		icon: 'indent'
+		icon: 'magic'
 		iconset: 'fa'
 	},
 	{
@@ -41,6 +41,13 @@
 		tooltip: 'Unfold All'
 		callback: 'editor:unfold-all'
 		icon: 'unfold'
+	},
+	{
+		type: 'button'
+		tooltip: 'Toggle Tree View'
+		callback: 'tree-view:toggle'
+		icon: 'tree'
+		iconset: 'fa'
 	},
 	{
 		type: 'button'
