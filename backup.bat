@@ -26,7 +26,7 @@ REM Copy all configurations into current directory
 echo Copying files...
 echo\
 
-for %%f in (*.cson *.coffee *.txt *.json *.less) do (
+for %%f in (*.cson *.coffee *.txt *.json *.less .htmlhintrc .jshintrc .sass-lint.yml .gitignore) do (
 	echo Copying: %home%\.atom\%%f -^> %dir%\atom\%%f
 	copy %%f %dir%\atom > nul
 )
@@ -42,21 +42,6 @@ if exist touchbar-icons\ (
 		copy %%f %dir%\icon > nul
 	)
 )
-
-REM Change into ~/ directory
-cd %home%
-
-REM Copy linter configurations
-echo Copying: %home%\.htmlhintrc -^> %dir%\linter-conf\.htmlhintrc
-copy .htmlhintrc %dir%\linter-conf\.htmlhintrc > nul
-echo Copying: %home%\.jshintrc -^> %dir%\linter-conf\.jshintrc
-copy .jshintrc %dir%\linter-conf\.jshintrc > nul
-
-echo Done copying
-echo\
-
-REM Change into atom-io-customization directory
-cd %dir%
 
 echo Done! :)
 echo\

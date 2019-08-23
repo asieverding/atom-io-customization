@@ -28,7 +28,7 @@ REM Copy all configurations into current directory
 echo Copying files...
 echo\
 
-for %%f in (*.cson *.coffee *.txt *.json *.less) do (
+for %%f in (*.cson *.coffee *.txt *.json *.less .htmlhintrc .jshintrc .sass-lint.yml .gitignore) do (
 	echo Copying: %%f -^> %home%\.atom\%%f
 	copy %%f %home%\.atom\%%f > nul
 )
@@ -48,15 +48,6 @@ for %%f in (*.png) do (
 	echo Copying: %%f -^> %home%\.atom\touchbar-icons\%%f
 	copy %%f %home%\.atom\touchbar-icons\%%f > nul
 )
-
-REM Change into ~/ directory
-cd %home%
-
-REM Copy linter configurations
-echo Copying: .htmlhintrc -^> %home%\.htmlhintrc
-copy %dir%\linter-conf\.htmlhintrc .htmlhintrc > nul
-echo Copying: .jshintrc -^> %home%\.jshintrc
-copy %dir%\linter-conf\.jshintrc .jshintrc > nul
 
 echo\
 echo Done! :)
