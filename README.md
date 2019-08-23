@@ -4,8 +4,7 @@ This repository offers an automatic install script for **Atom.io** customization
 This Atom.io setup includes a fully IDE with Debugger for PHP / Web development.
 Also a functionality for running Electron / NodeJS Apps from toolbar is included.
 
-![Markdown Editor & Preview](img/screen_1.png)
-![PHP IDE & Debugger](img/screen_2.png)
+![Screenshot](img/screenshot.png)
 
 Mac OS Touchbar integration :alien:
 
