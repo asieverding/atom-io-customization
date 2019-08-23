@@ -43,13 +43,5 @@ if [ -d "touchbar-icons" ]; then
 	done
 fi
 
-# Change into ~/ directory
-cd $HOME
-
-echo "Done copying\n"
-
-# Change into atom-io-customization directory
-cd $dir
-
 # Done! :)
 echo "\nDone ✅\n"

@@ -51,8 +51,5 @@ do
 	fi
 done
 
-# Change into ~/ directory
-cd $HOME
-
 # Done! :)
 echo "\nDone ✅\nEnjoy your customized Atom.io Code-Editor!\n"
