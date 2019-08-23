@@ -78,10 +78,10 @@
     closeEmptyWindows: false
     disabledPackages: [
       "wrap-guide"
-      "atom-debug-ui"
-      "php-debug"
       "language-batch"
-      "multi-cursor"
+      "xatom-debug"
+      "xatom-debug-nodejs"
+      "xatom-debug-php"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"
@@ -97,6 +97,7 @@
       "one-dark-ui"
       "one-dark-monokai"
     ]
+    titleBar: "custom-inset"
     uriHandlerRegistration: "always"
   editor:
     fontFamily: "Menlo, Monaco, 'Courier New', monospace"
@@ -112,6 +113,8 @@
     strategies: {}
   "flex-tool-bar":
     toolBarConfigurationFilePath: "Users/Andre/.atom"
+  "git-projects":
+    rootPath: "~/Documents/GitHub"
   github:
     gitDiagnostics: true
   "google-translate-modal-English-Version":
@@ -149,6 +152,8 @@
     plugins:
       linter: true
       linterDecorationsZIndex: 0
+  "no-title-bar":
+    automaticTrafficLightsPadding: true
   "one-dark-ui":
     fontSize: 11
     tabCloseButton: "Left"
@@ -166,10 +171,10 @@
     xdebug:
       pathMaps: "[{\"remotePath\":\"/null\",\"localPath\":\"!\"}]"
   "slack-chat": {}
+  "split-diff": {}
   "terminal-tab": {}
   "toggle-gutter": {}
   "tool-bar":
-    fullWidth: false
     iconSize: "16px"
     useTouchBar: false
   "tool-bar-markdown-writer": {}

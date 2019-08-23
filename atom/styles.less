@@ -46,3 +46,31 @@ status-bar .inline-block:hover {
 	// background-color: #ff9500 !important;
 	background-color: #6f96f4 !important;
 }
+
+.bugs-icon.bugs-icon-logo {
+	display: none;
+}
+
+.no-title-bar:not(.fullscreen) {
+    &.custom-title-bar, &.custom-inset-title-bar {
+		atom-panel-container.header > atom-panel:nth-child(2) {
+			padding-left: 75px;
+		}
+
+		:not(.native-ui-macTransparency) .no-title-bar.fullscreen atom-panel-container.header > atom-panel:nth-child(2) {
+			padding-left: 0;
+		}
+
+		.no-title-bar-left-dock-workaround {
+			display: none;
+		}
+
+		atom-workspace-axis > atom-panel-container.left, atom-workspace-axis > atom-panel-container.right {
+			margin-top: 0 !important;
+		}
+
+		.list-inline.tab-bar.inset-panel {
+			padding-left: 0 !important;
+		}
+    }
+}

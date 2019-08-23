@@ -16,6 +16,13 @@
 	},
 	{
 		type: 'button'
+		tooltip: 'Open Git Project'
+		dependency: 'git-projects'
+		callback: 'git-projects:toggle'
+		icon: 'repo'
+	},
+	{
+		type: 'button'
 		tooltip: 'Save File'
 		callback: 'core:save'
 		icon: 'cloud-upload'
@@ -69,14 +76,6 @@
 	},
 	{
 		type: 'button'
-		tooltip: 'Google Translate'
-		dependency: 'Google Translate Modal'
-		callback: 'Google Translate Modal: Toggle'
-		icon: 'language'
-		iconset: 'fa'
-	},
-	{
-		type: 'button'
 		tooltip: 'Markdown Preview'
 		dependency: 'markdown-preview'
 		callback: 'markdown-preview:toggle'
@@ -91,14 +90,6 @@
 		show: 'markdown'
 		icon: 'list-unordered'
 	},
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Ordered List'
-	# 	dependency: 'markdown-commander'
-	# 	callback: 'markdown-commander:ordered-list'
-	# 	show: 'markdown'
-	# 	icon: 'list-ordered'
-	# },
 	{
 		type: 'button'
 		tooltip: 'Task List'
@@ -107,32 +98,38 @@
 		show: 'markdown'
 		icon: 'tasklist'
 	},
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Install Dependencies'
-	# 	dependency: 'atom-npm'
-	# 	callback: 'atom-npm:install-dependencies'
-	# 	icon: 'plus-circle'
-	# 	iconset: 'fa'
-	# },
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Update Dependencies'
-	# 	dependency: 'atom-npm'
-	# 	callback: 'atom-npm:update-dependencies'
-	# 	icon: 'dot-circle'
-	# 	iconset: 'fa'
-	# },
 	{
 		type: 'button'
-		tooltip: 'Open PHP Dubugger'
-		dependency: 'php-debug'
-		callback: 'atom-debug-ui:toggleDebugging'
-		show: 'php'
+		tooltip: 'Rund Node Script'
+		dependency: 'atom-npm'
+		callback: 'atom-npm:run'
+		icon: 'play-circle'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Install Node Dependencies'
+		dependency: 'atom-npm'
+		callback: 'atom-npm:install-dependencies'
+		icon: 'plus-circle'
+		iconset: 'fa'
+	},
+	{
+		type: 'button'
+		tooltip: 'Toggle Dubugger'
+		dependency: 'xatom-debug'
+		callback: 'xatom-debug:toggle'
 		icon: 'bug'
 	},
 	{
 		type: 'spacer'
+	},
+	{
+		type: 'button'
+		tooltip: 'Open on Github'
+		dependency: 'open-on-github'
+		callback: 'open-on-github:repository'
+		icon: 'mark-github'
 	},
 	# {
 	# 	type: 'button'
@@ -142,52 +139,37 @@
 	# 	icon: 'git-plain'
 	# 	iconset: 'devicon'
 	# },
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Git Projects'
-	# 	dependency: 'git-projects'
-	# 	callback: 'git-projects:toggle'
-	# 	icon: 'git'
-	# 	iconset: 'fa'
-	# },
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Toggle Blame'
-	# 	dependency: 'blame'
-	# 	callback: 'blame:toggle'
-	# 	icon: 'sourcetree-plain'
-	# 	iconset: 'devicon'
-	# },
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Git Diff Details'
-	# 	dependency: 'git-diff-details'
-	# 	callback: 'git-diff-details:toggle-git-diff-details'
-	# 	icon: 'diff'
-	# },
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Merge Conflicts'
-	# 	dependency: 'merge-conflicts'
-	# 	callback: 'merge-conflicts:detect'
-	# 	icon: 'git-merge'
-	# },
-	# {
-	# 	type: 'button'
-	# 	tooltip: 'Git Time Machine'
-	# 	dependency: 'git-time-machine'
-	# 	callback: 'git-time-machine:toggle'
-	# 	icon: 'clock'
-	# },
 	{
 		type: 'button'
-		tooltip: 'Open on Github'
-		dependency: 'open-on-github'
-		callback: 'open-on-github:repository'
-		icon: 'mark-github'
+		tooltip: 'Git Diff Details'
+		dependency: 'git-diff-details'
+		callback: 'git-diff-details:toggle-git-diff-details'
+		icon: 'diff'
+	},
+	{
+		type: 'button'
+		tooltip: 'Merge Conflicts'
+		dependency: 'merge-conflicts'
+		callback: 'merge-conflicts:detect'
+		icon: 'git-merge'
+	},
+	{
+		type: 'button'
+		tooltip: 'Git Time Machine'
+		dependency: 'git-time-machine'
+		callback: 'git-time-machine:toggle'
+		icon: 'clock'
 	},
 	{
 		type: 'spacer'
+	},
+	{
+		type: 'button'
+		tooltip: 'Google Translate'
+		dependency: 'Google Translate Modal'
+		callback: 'Google Translate Modal: Toggle'
+		icon: 'language'
+		iconset: 'fa'
 	},
 	{
 		type: 'button'

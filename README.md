@@ -62,12 +62,15 @@ Execute backup.bat
 
 Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 
-- atom-debug-ui
+- atom-npm
 - busy-signal
 - color-picker
 - docblockr
 - file-icons
 - flex-tool-bar
+- git-diff-details
+- git-projects
+- git-time-machine
 - google-translate-modal-English-Version
 - ide-php
 - intentions
@@ -80,14 +83,18 @@ Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 - linter-sass-lint
 - linter-ui-default
 - markdown-commander
+- merge-conflicts
 - minimap
-- multi-cursor
+- no-title-bar
 - one-dark-monokai
-- php-debug
+- split-diff
 - teletype
 - terminal-tab
 - tool-bar
 - touchbar
+- xatom-debug
+- xatom-debug-nodejs
+- xatom-debug-php
 
 ### Included Node.js packages
 
