@@ -35,3 +35,4 @@
 	'shift-cmd-i': 'window:toggle-invisibles'
 	'cmd-i': 'editor:auto-indent'
 	'shift-cmd-e': 'color-picker:open'
+	'shift-cmd-s': 'tree-view:toggle'
