@@ -79,9 +79,9 @@
     disabledPackages: [
       "wrap-guide"
       "language-batch"
+      "xatom-debug-php"
       "xatom-debug"
       "xatom-debug-nodejs"
-      "xatom-debug-php"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"

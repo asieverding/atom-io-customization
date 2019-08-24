@@ -31,3 +31,4 @@ touchbar@0.14.2
 xatom-debug@1.6.11
 xatom-debug-nodejs@0.9.3
 xatom-debug-php@0.1.0
+

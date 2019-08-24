@@ -31,11 +31,15 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 
-'atom-workspace':
-	'shift-cmd-s': 'github:toggle-git-tab'
-	'shift-cmd-a': 'tree-view:toggle'
-
-'atom-text-editor':
+'.platform-darwin':
+	'cmd-|': 'github:toggle-git-tab'
 	'shift-cmd-i': 'window:toggle-invisibles'
 	'cmd-i': 'editor:auto-indent'
+
+'.platform-win32':
+	'crtl-|': 'github:toggle-git-tab'
+	'crtl-shift-i': 'window:toggle-invisibles'
+	'crtl-i': 'editor:auto-indent'
+
+'atom-text-editor':
 	'shift-cmd-e': 'color-picker:open'
