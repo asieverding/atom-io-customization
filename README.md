@@ -72,7 +72,6 @@ Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 - git-projects
 - git-time-machine
 - google-translate-modal-English-Version
-- ide-php
 - intentions
 - language-batch
 - language-marko
