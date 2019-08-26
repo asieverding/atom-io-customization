@@ -117,8 +117,8 @@
 	{
 		type: 'button'
 		tooltip: 'Toggle Dubugger'
-		dependency: 'xatom-debug'
-		callback: 'xatom-debug:toggle'
+		dependency: 'debugger'
+		callback: 'debugger:toggle'
 		icon: 'bug'
 	},
 	{

@@ -1,3 +1,4 @@
+atom-ide-ui@0.13.0
 atom-npm@0.3.1
 busy-signal@2.0.1
 color-picker@2.3.0
@@ -9,15 +10,15 @@ git-projects@1.17.0
 git-time-machine@2.1.0
 google-translate-modal-English-Version@2.1.0
 ide-php@0.7.18
+ide-typescript@0.9.1
 intentions@1.1.5
 language-batch@0.4.0
+language-docker@1.1.8
 language-marko@2.10.0
-linter@2.3.1
+linter-docker@0.3.2
 linter-htmlhint@1.6.2
 linter-jshint@3.1.16
-linter-php@1.6.1
 linter-sass-lint@1.9.0
-linter-ui-default@1.7.1
 markdown-commander@0.1.1
 merge-conflicts@1.4.5
 minimap@4.29.9
@@ -28,7 +29,4 @@ teletype@0.13.4
 terminal-tab@0.5.7
 tool-bar@1.1.12
 touchbar@0.14.2
-xatom-debug@1.6.11
-xatom-debug-nodejs@0.9.3
-xatom-debug-php@0.1.0
 

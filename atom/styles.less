@@ -51,6 +51,11 @@ status-bar .inline-block:hover {
 	display: none;
 }
 
+// Disable last three buttons of toolbar (ide ui buttons)
+.tool-bar > button:nth-last-child(-n+3) {
+	display: none;
+}
+
 .no-title-bar:not(.fullscreen) {
     &.custom-title-bar, &.custom-inset-title-bar {
 		atom-panel-container.header > atom-panel:nth-child(2) {

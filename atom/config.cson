@@ -59,6 +59,7 @@
   "atom-package-deps":
     ignored: [
       "language-marko"
+      "linter-sass-lint"
     ]
   "atom-toolbar-preferred": {}
   "atom-touch-bar": {}
@@ -79,9 +80,6 @@
     disabledPackages: [
       "wrap-guide"
       "language-batch"
-      "xatom-debug-php"
-      "xatom-debug"
-      "xatom-debug-nodejs"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"
