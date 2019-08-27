@@ -33,22 +33,6 @@ for %%f in (*.cson *.coffee *.txt *.json *.less .htmlhintrc .jshintrc .sass-lint
 	copy %%f %home%\.atom\%%f > nul
 )
 
-REM Check touchbar-icons\ dir and create it, if it doesn't already exists
-cd %home%\.atom
-
-if not exist touchbar-icons\ (
-	mkdir touchbar-icons
-)
-
-REM Change into atom-io-customization/icon directory
-cd %dir%\icon
-
-REM Copy touchbar icons
-for %%f in (*.png) do (
-	echo Copying: %%f -^> %home%\.atom\touchbar-icons\%%f
-	copy %%f %home%\.atom\touchbar-icons\%%f > nul
-)
-
 echo\
 echo Done! :)
 echo\
