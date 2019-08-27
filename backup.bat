@@ -31,18 +31,6 @@ for %%f in (*.cson *.coffee *.txt *.json *.less .htmlhintrc .jshintrc .sass-lint
 	copy %%f %dir%\atom > nul
 )
 
-REM Copy touchbar-icons only when exists
-if exist touchbar-icons\ (
-	REM Change into icon directory
-	cd .\touchbar-icons
-
-	REM Copy touchbar icons
-	for %%f in (*.png) do (
-		echo Copying: %home%\.atom\touchbar-icons\%%f -^> %dir%\atom\icon\%%f
-		copy %%f %dir%\icon > nul
-	)
-)
-
 echo Done! :)
 echo\
 
