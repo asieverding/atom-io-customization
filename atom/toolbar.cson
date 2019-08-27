@@ -100,7 +100,7 @@
 	},
 	{
 		type: 'button'
-		tooltip: 'Rund Node Script'
+		tooltip: 'Run Node Script'
 		dependency: 'atom-npm'
 		callback: 'atom-npm:run'
 		icon: 'play-circle'
