@@ -88,6 +88,7 @@
       "atom-touchbar"
       "hyperclick"
       "tool-bar"
+      "xatom-debug"
     ]
     projectHome: "/Users/andre/Documents/GitHub"
     telemetryConsent: "no"
@@ -164,10 +165,10 @@
       protocolDebugging: true
       redirectStderr: true
       redirectStdout: true
-      serverAddress: "192.168.2.107"
+      serverAddress: "192.168.2.100"
     showWelcome: false
     xdebug:
-      pathMaps: "[{\"remotePath\":\"/null\",\"localPath\":\"!\"}]"
+      pathMaps: "[{\"remotePath\":\"/\",\"localPath\":\"/Users/andre/Documents/GitHub/phptest/\"}]"
   "slack-chat": {}
   "split-diff": {}
   "terminal-tab": {}
@@ -229,6 +230,9 @@
       
     '''
     lastVersion: "3.3.0"
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+  "xatom-debug":
+    showToolbarIcon: false
