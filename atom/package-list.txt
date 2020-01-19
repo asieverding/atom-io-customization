@@ -6,8 +6,10 @@ docblockr@0.13.7
 file-icons@2.1.38
 flex-tool-bar@2.1.4
 git-diff-details@1.4.0
+git-projects@1.17.0
 git-time-machine@2.1.0
 google-translate-modal-English-Version@2.1.0
+ide-php@0.7.18
 ide-typescript@0.9.1
 intentions@1.1.5
 language-batch@0.4.0
@@ -20,10 +22,11 @@ linter-sass-lint@1.9.0
 markdown-commander@0.1.1
 merge-conflicts@1.4.5
 minimap@4.29.9
+no-title-bar@1.11.8
 one-dark-monokai@0.5.0
 split-diff@1.6.1
 teletype@0.13.4
 terminal-tab@0.6.0
-title-bar-replacer@1.8.3
 tool-bar@1.2.0
+touchbar@0.14.2
 
