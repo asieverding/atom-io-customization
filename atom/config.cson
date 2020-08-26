@@ -80,6 +80,7 @@
     disabledPackages: [
       "wrap-guide"
       "language-batch"
+      "ide-php"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"
@@ -123,9 +124,9 @@
   linter:
     lintOnChange: false
     lintPreviewTabs: false
-  "linter-htmlhint":
-    disableWhenNoHtmlhintConfig: false
+  "linter-htmlhint": {}
   "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
     jshintFileName: "~/.atom/.jshintrc"
     lintInlineJavaScript: true
   "linter-less":

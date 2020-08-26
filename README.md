@@ -1,6 +1,6 @@
 # Atom.io Customization :alien:
 
-This repository offers an automatic install script for **Atom.io** customization! :fire:
+This repository offers an automatic install script for **Atom.io** customization! :fire:  
 This Atom.io setup includes a fully IDE with Debugger for Web development with Node.js.
 
 ![Screenshot](img/screenshot.png)
@@ -46,29 +46,23 @@ Execute `backup.bat`
 
 Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 
+- atom-ide-debugger-node
 - atom-ide-ui
-- atom-npm
 - busy-signal
 - color-picker
 - docblockr
 - file-icons
 - flex-tool-bar
-- git-diff-details
-- git-projects
 - git-time-machine
 - google-translate-modal-English-Version
 - ide-php
 - ide-typescript
-- intentions
 - language-batch
 - language-docker
 - language-marko
-- linter-docker
 - linter-htmlhint
 - linter-jshint
 - linter-sass-lint
-- markdown-commander
-- merge-conflicts
 - minimap
 - no-title-bar
 - one-dark-monokai
@@ -76,7 +70,6 @@ Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 - teletype
 - terminal-tab
 - tool-bar
-- touchbar
 
 ### Included Node.js packages
 

@@ -16,13 +16,6 @@
 	},
 	{
 		type: 'button'
-		tooltip: 'Open Git Project'
-		dependency: 'git-projects'
-		callback: 'git-projects:toggle'
-		icon: 'repo'
-	},
-	{
-		type: 'button'
 		tooltip: 'Save File'
 		callback: 'core:save'
 		icon: 'cloud-upload'
@@ -139,19 +132,19 @@
 	# 	icon: 'git-plain'
 	# 	iconset: 'devicon'
 	# },
+	# {
+	# 	type: 'button'
+	# 	tooltip: 'Merge Conflicts'
+	# 	dependency: 'merge-conflicts'
+	# 	callback: 'merge-conflicts:detect'
+	# 	icon: 'git-merge'
+	# },
 	{
 		type: 'button'
-		tooltip: 'Git Diff Details'
-		dependency: 'git-diff-details'
-		callback: 'git-diff-details:toggle-git-diff-details'
+		tooltip: 'Split Diff'
+		dependency: 'split-diff'
+		callback: 'split-diff:toggle'
 		icon: 'diff'
-	},
-	{
-		type: 'button'
-		tooltip: 'Merge Conflicts'
-		dependency: 'merge-conflicts'
-		callback: 'merge-conflicts:detect'
-		icon: 'git-merge'
 	},
 	{
 		type: 'button'
