@@ -1,3 +1,0 @@
-# XDebug
-
-Installation guide for windows: <https://gist.github.com/odan/1abe76d373a9cbb15bed>
