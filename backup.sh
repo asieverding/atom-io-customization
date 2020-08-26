@@ -25,23 +25,5 @@ do
 	cp $relFile ${dir}/atom/${relFile}
 done
 
-# Copy touchbar-icons only when exists
-if [ -d "touchbar-icons" ]; then
-	# Change into icon directory
-	cd ./touchbar-icons
-
-	# Copy touchbar icons
-	for file in ./*
-	do
-		# Only .png
-		if [[ "$file" == ./*.png ]]
-		then
-			relFile=$(echo $file | cut -c 3-)
-			echo "Copying: ${HOME}/.atom/touchbar-icons/${relFile} -> ${dir}/icon/${relFile}"
-	  		cp $relFile ${dir}/icon/${relFile}
-		fi
-	done
-fi
-
 # Done! :)
 echo "\nDone ✅\n"
