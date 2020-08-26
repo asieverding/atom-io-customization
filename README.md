@@ -12,35 +12,29 @@ This Atom.io setup includes a fully IDE with Debugger for Web development with N
 
 ### Installation Guide
 
-##### Mac OS X
-
-```shell
-# Clone repository
-$ git clone https://github.com/Teddy95/atom-io-customization.git
-
-# Change directory
-$ cd atom-io-customization
-
-# Execute install.sh
-$ ./install.sh
-```
-
-##### Windows
-
 1.  Download atom-io-customization zip archive from windows branch [here](https://github.com/Teddy95/atom-io-customization/archive/windows.zip)
 2.  Execute `install.bat`
 
 ### Backup your Atom.io environment for new installation
 
-##### Mac OS X
-
-```shell
-$ ./backup.sh
-```
-
-##### Windows
-
 Execute `backup.bat`
+
+### Remove Title Bar
+
+<details>
+	<summary>Click on <code>Window frame remover</code>.</summary>
+	<img src="img/title-bar-replacer_frame-remover_1.png" alt="" />
+</details>
+
+<details>
+	<summary>And then on <code>Patch</code>.</summary>
+	<img src="img/title-bar-replacer_frame-remover_2.png" alt="" />
+</details>
+
+<details>
+	<summary>Afterwards close Atom and rename <code>app-FRAMELESS.asar</code> to <code>app.asar</code> in <code>AppData\Local\atom\app-x.x.x\resources</code>.</summary>
+	<img src="img/title-bar-replacer_frame-remover_3.png" alt="" />
+</details>
 
 ### Included Atom.io packages
 
@@ -57,6 +51,7 @@ Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 - google-translate-modal-English-Version
 - ide-php
 - ide-typescript
+- kite
 - language-batch
 - language-docker
 - language-marko
@@ -64,11 +59,11 @@ Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 - linter-jshint
 - linter-sass-lint
 - minimap
-- no-title-bar
 - one-dark-monokai
 - split-diff
 - teletype
 - terminal-tab
+- title-bar-replacer
 - tool-bar
 
 ### Included Node.js packages
