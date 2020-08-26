@@ -1,26 +1,14 @@
-# Atom.io Customization
+# Atom.io Customization :alien:
 
 This repository offers an automatic install script for **Atom.io** customization! :fire:
-This Atom.io setup includes a fully IDE with Debugger for PHP / Web development.
-Also a functionality for running Electron / NodeJS Apps from toolbar is included.
+This Atom.io setup includes a fully IDE with Debugger for Web development with Node.js.
 
 ![Screenshot](img/screenshot.png)
 
-Mac OS Touchbar integration :alien:
-
-![Touchbar](img/touchbar.png)
-
 ### Requirements
 
--   Atom.io
--   Node.js
-
-##### To get things work:
-
--   Apache
--   PHP
--   PEAR / PECL (PHP package manager)
--   XDebug for PHP (`pecl install xdebug`)
+- Atom.io
+- Node.js
 
 ### Installation Guide
 
@@ -39,24 +27,20 @@ $ ./install.sh
 
 ##### Windows
 
-1.  Download atom-io-customization zip archive [here](https://github.com/Teddy95/atom-io-customization/archive/master.zip)
+1.  Download atom-io-customization zip archive from windows branch [here](https://github.com/Teddy95/atom-io-customization/archive/windows.zip)
 2.  Execute `install.bat`
 
 ### Backup your Atom.io environment for new installation
 
 ##### Mac OS X
 
-    $ ./backup.sh
+```shell
+$ ./backup.sh
+```
 
 ##### Windows
 
-Execute backup.bat
-
-### Configurate Touchbar
-
-1.  Go to `Packages ⇒ touchbar ⇒ Edit Touchbar`
-2.  Insert your username / path to icon (`~/.atom/touchbar-icons`)
-    ![Touchbar Configuration](img/touchbar_config.png)
+Execute `backup.bat`
 
 ### Included Atom.io packages
 
@@ -98,26 +82,17 @@ Packages from <https://atom.io/packages> ⇒ `apm install <package>`
 
 Packages from <https://www.npmjs.com/> ⇒ `npm install <package>`
 
--   [ ] jshint
--   [ ] sass-lint
+- [ ] jshint
+- [ ] htmlhint
+- [ ] sass-lint
 
 **Note:** _Node.js packages aren't included in install script!_
 
 ### Included configuration files
 
-##### Configuration files for Atom.io & packages ⇒ `~/.atom` Directory
+##### Configuration files for Atom.io, Packages & Linters ⇒ `~/.atom` Directory
 
 ⇒ [Show files](https://github.com/Teddy95/atom-io-customization/tree/master/atom)
-
-##### Configuration files for Linters ⇒ `~/` Directory
-
-⇒ [Show files](https://github.com/Teddy95/atom-io-customization/tree/master/linter-conf)
-
-##### Configuration file for XDebug ⇒ `./extra` inside Directory which contains `php.ini`
-
--   xdebug/ext-xdebug.ini
-
-**Note:** _Set the IP address in XDebug ini file / php-debug settings to your local ip, which you've got by your router._
 
 ### License
 
