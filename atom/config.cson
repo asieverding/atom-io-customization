@@ -76,6 +76,7 @@
       "language-batch"
       "ide-php"
       "linter-php"
+      "kite"
     ]
     packagesWithKeymapsDisabled: [
       "toggle-gutter"
@@ -96,7 +97,6 @@
     uriHandlerRegistration: "always"
   editor:
     fontFamily: "Menlo, Monaco, 'Courier New', monospace"
-    fontSize: 13
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -106,26 +106,27 @@
     userId: "04f29aa6-1c13-4aaa-96a7-2ad326667bcd"
   "file-icons":
     strategies: {}
-  "flex-tool-bar":
-    toolBarConfigurationFilePath: "C:\\Users\\Andre\\.atom"
+  "flex-tool-bar": {}
   github:
     gitDiagnostics: true
   "google-translate-modal-English-Version":
     lang: "de"
   "ide-php":
     phpPath: "/usr/bin/php"
+  kite:
+    showWelcomeNotificationOnStartup: false
   linter:
     lintOnChange: false
     lintPreviewTabs: false
   "linter-htmlhint": {}
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
-    jshintFileName: "C:\\Users\\Andre\\.atom\\.jshintrc"
+    jshintFileName: "C:\\Users\\ASieverding\\.atom\\.jshintrc"
     lintInlineJavaScript: true
   "linter-php":
     executablePath: "/usr/bin/php"
   "linter-sass-lint":
-    configFile: "C:\\Users\\Andre\\.atom\\.sass-lint.yml"
+    configFile: "C:\\Users\\ASieverding\\.atom\\.sass-lint.yml"
   "markdown-preview":
     useGitHubStyle: true
   "no-title-bar":
@@ -135,6 +136,9 @@
     tabCloseButton: "Left"
   "split-diff": {}
   "terminal-tab": {}
+  "title-bar-replacer":
+    colours:
+      style: "Compact"
   "tool-bar":
     iconSize: "16px"
     useTouchBar: false

@@ -20,7 +20,7 @@ cd %home%\.atom
 REM Update package-list
 echo Updating package-list...
 echo\
-call apm list --installed --bare > package-list.txt
+call C:\Users\ASieverding\AppData\Local\atom\bin\apm.cmd list --installed --bare > package-list.txt
 
 REM Copy all configurations into current directory
 echo Copying files...
